@@ -1,0 +1,177 @@
+/****** BASE STYLES ******/
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+#about, #header {
+  height: 900px;
+}
+
+ #skills {
+   height: 500px;
+ }
+ #work {
+   height: 600px;
+ }
+
+ #contact {
+     height: 750px;
+ }
+
+/****** GRID ******/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+.half-width {
+    width: 600px;
+    float: left;
+}
+.third-width {
+    width: 400px;
+    display: inline-block;
+    text-align: center;
+}
+
+
+/****** HEADER ******/
+
+#logo {
+  padding-top: 30px;
+  padding-left: 60px;
+}
+
+nav {
+    float: right;
+    padding: 80px 5px;
+    margin-right: 80px;
+}
+nav ul li {
+    display: inline-block;
+}
+nav ul li a {
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-left: 70px;
+}
+
+/****** ABOUT ******/
+
+#about .full-width {
+    padding: 400px 100px;
+}
+
+#about h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  color: #000000;
+  text-align: left;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-left: 100px;
+}
+
+#about p {
+    font-size: 18px;
+    color: #7f7f7f;
+    line-height: 24px;
+    padding-left: 100px;
+    padding-right:20px;
+    padding-top: 10px;
+    margin-top: 50px;
+}
+
+#self-photo {
+  padding: 5px;
+  border: 1px solid #7f7f7f;
+  margin-left: 90px;
+}
+
+/****** SKILLS******/
+
+#horizontal-break-1 {
+  text-align: center;
+}
+
+#skills {
+  text-align: center;
+}
+
+#skills h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  color: #000000;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+#skills p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  color: #7f7f7f;
+}
+
+
+/******WORK******/
+
+#horizontal-break-2, #work {
+  text-align: center;
+}
+
+#work h2 {
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+#business-card {
+  padding: 5px;
+  border: 1px solid #7f7f7f;
+}
+
+#project-2 {
+  padding: 5px;
+  border: 1px solid #7f7f7f;
+}
+
+#design-comp {
+  padding: 5px;
+  border: 1px solid #7f7f7f;
+}
+
+/******CONTACT******/
+
+#horizontal-break-3 {
+  text-align: center;
+}
+
+#contact {
+    text-align: center;
+}
+
+#contact h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  color: #000000;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+#contact p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  color: #7f7f7f;
+}
+
+#instagram, #behance, #twitter, #facebook {
+  padding: 5px;
+}
